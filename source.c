@@ -3,6 +3,7 @@
 void feature1(void);
 void feature2(void);
 void add(int x, int y);
+void newfeature(void);
 
 
 
@@ -29,4 +30,9 @@ void feature2(void){
 }
 void add(int x, int y){
     printf("the addition is : %d\n", x+y);
+}
+
+void newfeature(void){
+    printf("this new-feature\n");
+    printf("welcome to new feature\n");
 }
